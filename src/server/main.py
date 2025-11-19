@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def main(name):
+def main(name: str):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hello from parse-ai-papers!, on {name}')  # Press F9 to toggle the breakpoint.
 

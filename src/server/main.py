@@ -4,8 +4,8 @@ from contextlib import asynccontextmanager
 
 import uvicorn
 from fastapi import FastAPI
-from src.server.config import get_settings
-from src.server.db.factory import make_database
+from server.config import get_settings
+from server.db.factory import make_database
 
 # Setup logging
 logging.basicConfig(

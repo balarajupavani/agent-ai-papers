@@ -1,7 +1,7 @@
-from src.server.config import get_settings
-from src.server.db.interfaces.base import BaseDatabase
-from src.server.db.interfaces.postgresql import PostgreSQLDatabase
-from src.server.schemas.database.config import PostgreSQLSettings
+from server.config import get_settings
+from server.db.interfaces.base import BaseDatabase
+from server.db.interfaces.postgresql import PostgreSQLDatabase
+from server.schemas.database.config import PostgreSQLSettings
 
 
 def make_database() -> BaseDatabase:

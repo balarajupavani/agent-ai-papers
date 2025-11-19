@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 
-from src.server.db.factory import make_database
+from server.db.factory import make_database
 
 # Global database instance
 _database = None

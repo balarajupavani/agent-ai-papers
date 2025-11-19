@@ -1,0 +1,1 @@
+Use uv tool: https://medium.com/@philip.mutua/python-uv-pyproject-toml-the-fastest-way-to-run-python-apps-913d6213c111
